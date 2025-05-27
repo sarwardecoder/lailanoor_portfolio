@@ -10,8 +10,8 @@ defineOptions({
     <div class="row">
       <!-- Contact Form Column -->
       <div class="col-md-8">
-        <div class="card bg-dark text-white p-3 h-100 animate-card shadow">
-          <h1 class="text-center"><button class="btn btn-danger rounded p-2 m-1 text-warning">About</button> Laila Noor</h1>
+        <div class="card bg-primary text-white p-3 h-100 animate-card shadow">
+          <h2>About Laila Noor</h2>
 
 Laila Noor is a name synonymous with excellence, dedication, and passion in the world of swimming. A six-time National Swimming Champion, Laila has carved a legendary path in the sport with her unmatched determination and discipline. Her journey from a promising young swimmer to becoming a National Swimming Coach is a testament to her lifelong commitment to nurturing talent and pushing boundaries.
 

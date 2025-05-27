@@ -6,21 +6,17 @@ defineOptions({
 })
 </script>
 <template>
-  <div class="container py-4">
+  <div class="container py-4 ">
     <div class="row">
-      <!-- Contact Form Column -->
       <div class="col-md-6">
         <div class="card bg-primary text-white p-3 h-100">
-          <h2>Contact Form</h2>
-          <!-- Replace this with actual form later -->
+          <h2>Home Foods</h2>
         </div>
       </div>
 
-      <!-- Contact Details Column -->
       <div class="col-md-6">
         <div class="card bg-warning text-dark p-3 h-100">
-          <h2>Laila Noor's Contact Details</h2>
-          <!-- Put contact info here -->
+          <h2>Home Foods 2</h2>
         </div>
       </div>
     </div>
