@@ -16,13 +16,13 @@ import { Link } from '@inertiajs/inertia-vue3'
                     <Link class="nav-link nav-animate" href="/about">About</Link>
                     <!-- <Link class="nav-link nav-animate" href="/services">Services</Link> -->
                     <li class="nav-item nav-animate dropdown">
-                        <Link class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <Link class="nav-link dropdown-toggle nav-animate" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Services
                         </Link>
-                        <ul class="dropdown-menu">
-                            <li><Link class="dropdown-item" href="/learn-swimming">Learn Swimming</Link></li>
-                            <li><Link class="dropdown-item" href="/home-foods">Laila Noors Home Made Food</Link></li>
+                        <ul class="dropdown-menu dropdown-animate">
+                            <li><Link class="dropdown-item dropdown-animate" href="/learn-swimming">Learn Swimming</Link></li>
+                            <li><Link class="dropdown-item dropdown-animate" href="/home-foods">Laila Noors Home Made Food</Link></li>
                           
                         </ul>
                     </li>
@@ -43,5 +43,14 @@ import { Link } from '@inertiajs/inertia-vue3'
 .nav-animate:hover {
     color: rgb(15, 156, 7) !important;
     transform: scale(1.25);
+}
+.dropdown-animate:hover {
+    color: rgb(190, 247, 4) !important;
+/* background-color: aqua; */
+/* border-radius: 15px; */
+padding:1px 1px ;
+    transition: all 0.3s ease-in-out;
+    background-color:rgb(9, 162, 245)  ;
+
 }
 </style>

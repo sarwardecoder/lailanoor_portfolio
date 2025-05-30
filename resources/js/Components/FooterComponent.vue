@@ -1,4 +1,5 @@
 <script setup>
+import { Link } from '@inertiajs/inertia-vue3';
  
 </script>
 <template>
@@ -16,10 +17,10 @@ A six-time National Swimming Champion, Laila has carved a legendary path in the 
         <div class="col-md-4 mb-4">
           <h5 class="text-uppercase">Quick Links</h5>
           <ul class="list-unstyled">
-            <li><a href="#" class="text-white text-decoration-none">Home</a></li>
-            <li><a href="#" class="text-white text-decoration-none">Portfolio</a></li>
-            <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
-            <li><a href="#" class="text-white text-decoration-none">Blog</a></li>
+            <li><Link href="/" class="text-white text-decoration-none">Home</Link></li>
+            <li><Link href="/learn-swimming" class="text-white text-decoration-none">Learn Swimming</Link></li>
+            <li><Link href="/contact" class="text-white text-decoration-none">Contact</Link></li>
+            <li><Link href="/blog" class="text-white text-decoration-none">Blog</Link></li>
           </ul>
         </div>
 
@@ -37,7 +38,7 @@ A six-time National Swimming Champion, Laila has carved a legendary path in the 
       <div class="text-center mt-4 border-top pt-3">
         &copy; {{ new Date().getFullYear() }} Laila Noor. All rights reserved. 
       </div>
-      <div class="text-center mt-4 border-top pt-3">Design & Crafted by <button class="btn btn-info"><a href="https://github.com/sarwardecoder">Sarwar Jahan</a></button></div>
+      <div class="text-center mt-4 border-top pt-3">Design & Crafted by <button class="btn btn-info"><Link href="https://github.com/sarwardecoder">Sarwar Jahan</Link></button></div>
     </div>
   </footer>
 </template>
@@ -45,7 +46,7 @@ A six-time National Swimming Champion, Laila has carved a legendary path in the 
 
 
 <style scoped>
-footer a:hover {
-  text-decoration: underline;
+footer Link:hover {
+  text-decoration: none;
 }
 </style>
