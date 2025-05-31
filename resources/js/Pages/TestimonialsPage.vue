@@ -61,6 +61,11 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
+import Layout from "../Components/Layout.vue";
+defineOptions({
+    layout: Layout
+})
+
 const testimonials = ref([
   {
     quote: "My daughter used to be afraid of water. Within weeks, Laila turned her into a confident swimmer!",
@@ -114,6 +119,9 @@ const addTestimonial = () => {
 </script>
 
 <style scoped>
+.card{
+  padding:15px;
+}
 .card-hover {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -131,4 +139,14 @@ const addTestimonial = () => {
 .bi-star-fill {
   font-size: 0.9rem;
 }
+.card h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.card h5 {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
 </style>
