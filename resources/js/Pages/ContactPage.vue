@@ -10,7 +10,7 @@ defineOptions({
     <div class="row">
       <!-- Contact Form Column -->
       <div class="col-md-8">
-        <div class="card bg-primary text-white p-3 h-100">
+        <div class="card bg-primary-subtle text-dark p-3 h-100">
           <h2 class="text-center">Contact Form</h2>
           <form class="contact-form">
             <input type="text" placeholder="Your Name" required />
@@ -23,7 +23,7 @@ defineOptions({
 
       <!-- Contact Details Column -->
       <div class="col-md-4 mt-1 mb-1">
-        <div class="card bg-warning text-dark p-3 h-100">
+        <div class="card bg-warning-subtle text-dark p-3 h-100">
           <h2 class="text-center">Contact Details</h2>
           <hr>
           <div class="contact-info">
@@ -84,8 +84,8 @@ defineOptions({
 }
 
 .contact-form button {
-  background-color: #0b0fef;
-  color: white;
+  background-color: #09cf80;
+  color: rgb(253, 249, 249);
   padding: 0.75rem;
   border: none;
   border-radius: 0.5rem;

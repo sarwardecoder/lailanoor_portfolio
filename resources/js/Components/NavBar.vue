@@ -3,7 +3,7 @@ import { Link } from '@inertiajs/inertia-vue3'
 </script>
 
 <template>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary  sticky-top bg-success-subtle">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  sticky-top ">
         <div class="container-fluid">
             <Link class="navbar-brand" href="#">LailaNoor</Link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -41,7 +41,7 @@ import { Link } from '@inertiajs/inertia-vue3'
 }
 
 .nav-animate:hover {
-    color: rgb(15, 156, 7) !important;
+    color:  #f12711 !important;
     transform: scale(1.25);
 }
 .dropdown-animate:hover {

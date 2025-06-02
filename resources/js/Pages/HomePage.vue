@@ -5,7 +5,7 @@ defineOptions({
 })
 </script>
 <template>
-    <div class="container-fluid ">
+    <div class="container-fluid">
         <div class="row p-2">
             <div class="col-md-8">
                 <div class="card text-dark p-3 h-100">
@@ -19,8 +19,15 @@ defineOptions({
 
             <div class="col-md-4">
                 <div class="card bg-warning text-dark p-3 h-100 ">
-<div class="placeholder-box"><img src="" alt="Laila Noors photo"></div>                  
-                </div>
+<img
+  class="img-fluid rounded-circle shadow"
+  src="https://images.unsplash.com/photo-1505968409348-bd000797c92e?q=80&w=2071&auto=format&fit=crop"
+  alt="Laila Noor's photo"
+  height="400"
+  width="400"
+/>
+
+</div>
             </div>
         </div>
         <div class="row">
@@ -70,5 +77,42 @@ All cards
   font-size: 1.2rem;
   border: 1px dashed #ccc;
 }
+/* option 1 */
+/* .container-fluid {
+    background: linear-gradient(135deg, #0ffa52 0%, #2a5298 100%);
+    color: #fff;
+} */
 
+/* option 2 */
+
+/* .container-fluid {
+    background: linear-gradient(135deg, #1e3c72, #6a11cb);
+    color: #fff;
+} */
+
+/* option 3
+ */
+/* 
+.container-fluid {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #fff;
+} */
+.container-fluid {
+    background: linear-gradient(135deg, #f12711, #f5af19);
+    color: #fff;
+}
+/* .container-fluid {
+    background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    color: #333;
+} */
+
+</style>
+
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ecfb50, #f7ba03); /* Or any other gradient */
+  min-height: 100vh;
+}
 </style>
