@@ -109,10 +109,5 @@ All cards
 </style>
 
 <style>
-body {
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(135deg, #ecfb50, #f7ba03); /* Or any other gradient */
-  min-height: 100vh;
-}
+
 </style>

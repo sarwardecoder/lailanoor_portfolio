@@ -9,6 +9,14 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
 />
+<style>
+    body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ecfb50, #f7ba03); /* Or any other gradient */
+  min-height: 100vh;
+}
+</style>
 
 
     @vite(['resources/js/app.js'])
